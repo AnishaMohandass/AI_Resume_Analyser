@@ -37,7 +37,9 @@ Displaying candidate status by analyzing the resume against the job description 
 
 <b>Step 2 -</b> Run <b>requirements.txt</b> file to install the python libraries defined in the file.
 Open terminal and run this command
+
 <i>pip install -r requirements.txt</i>
+
 
 <b>Step 3 -</b> In <b>.env</b> file, paste the OpenAI API key.
 
@@ -45,7 +47,9 @@ Open terminal and run this command
 
 <b>Step 5 -</b> Create <b>streamlit.py</b> file to create the User Interface (UI).
 To run the UI file, open terminal and go to project folder (app/ui) and run this command.
+
 <i>streamlit run streamlit.py</i>
+
 
 <b>Step 6 -</b> Type the "EXTRACT_CANDIDATE_DETAILS" prompt in <b>prompts.py</b> file.
 
@@ -64,4 +68,6 @@ This agent will compare the extracted details (resume JSON and job description J
 
 <b>Step 12 -</b> Create <b>main.py</b> file to execute all 3 created agents.
 Open terminal and run this command
+
 <i>uvicorn app.main:app --reload</i>
+
