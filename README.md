@@ -1,5 +1,5 @@
 # AI_Resume_Analyser
-Displaying candidate status by analyzing the resume against the job description file.
+Displaying candidate's selection status by analyzing the resume against the job description file.
 
 ## Steps:
 <b>Step 1 -</b> Create the folder structure.
