@@ -76,3 +76,14 @@ Open terminal and run this command:
 
 <i>uvicorn app.main:app --reload</i>
 
+
+
+## To create OpenAI API Key:
+
+Go to this link and login.
+
+https://platform.openai.com/login
+
+Step 1 - Create an API Key.
+
+Step 2 - Add credits.
